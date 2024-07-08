@@ -1,13 +1,20 @@
 {
-    "name": "node_app",
-    "version": "1.0.0",
-    "description": "A simple Node.js app with Docker",
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js"
-    },
-    "dependencies": {
-      "express": "^4.17.1"
-    }
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "A Node.js app with Docker, JWT authentication, and CRUD operations",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
-  
+}

@@ -1,8 +1,10 @@
-# Node.js App
+# Node.js App with JWT Authentication and CRUD
 
-This is a simple Node.js application that serves a static web page using Docker.
+This project demonstrates a Node.js application with JWT authentication, CRUD operations, and Docker.
 
 ## Setup
+
+### Docker
 
 1. Build the Docker image:
 
